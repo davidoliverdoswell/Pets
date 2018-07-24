@@ -8,7 +8,16 @@
 
 import UIKit
 
+struct NewPets {
+    let saluki: String
+    let heron: String
+    let nudibranch: String
+    let peacockSpider: String
+}
+
 class PetsTableViewController: UITableViewController {
+    
+    let pets = [NewPets]()
     
     var petsController = PetsController()
 
